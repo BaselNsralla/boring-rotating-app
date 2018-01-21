@@ -23,6 +23,7 @@ export default class App extends React.Component {
         easing: Easing.linear
     }).start(() => this.start())
   }
+  
   render() {
     const spin = this.spinValue.interpolate({
       inputRange: [0, 1],
